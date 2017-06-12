@@ -1,0 +1,1003 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Mikhail Korobov <kmike84@gmail.com>, 2009
+# Denis Popov <akadan47@gmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: FeinCMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-24 13:54+0300\n"
+"PO-Revision-Date: 2013-10-25 09:15+0000\n"
+"Last-Translator: Matthias Kestenholz <mk@feinheit.ch>\n"
+"Language-Team: Russian (http://www.transifex.com/projects/p/feincms/language/"
+"ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: feincms/admin/filters.py:49 feincms/admin/filters.py:97
+msgid "All"
+msgstr "Все"
+
+#: feincms/admin/filters.py:60 feincms/module/page/models.py:159
+msgid "Parent"
+msgstr "Родитель"
+
+#: feincms/admin/filters.py:108
+#: feincms/templates/admin/medialibrary/mediafile/change_list.html:13
+msgid "Category"
+msgstr "Категория"
+
+#: feincms/admin/tree_editor.py:278 feincms/content/section/models.py:35
+#: feincms/module/medialibrary/models.py:45 feincms/module/page/models.py:153
+#: feincms/module/page/models.py:225
+msgid "title"
+msgstr "заголовок"
+
+#: feincms/admin/tree_editor.py:326 feincms/admin/tree_editor.py:343
+msgid "You do not have permission to modify this object"
+msgstr "У вас нет прав для изменения этого объекта"
+
+#: feincms/admin/tree_editor.py:459
+msgid "No permission"
+msgstr "Нет прав"
+
+#: feincms/admin/tree_editor.py:477
+#, python-format
+msgid "%s has been moved to a new position."
+msgstr "Узел \"%s\" был перемещен на новое место."
+
+#: feincms/admin/tree_editor.py:480
+msgid "Did not understand moving instruction."
+msgstr "Перемещение не удалось. Непонятная команда."
+
+#: feincms/admin/tree_editor.py:491
+msgid "actions"
+msgstr "действия"
+
+#: feincms/admin/tree_editor.py:520
+#, fuzzy, python-format
+msgid "Successfully deleted %(count)d items."
+msgstr "Успешно удалено %s объектов"
+
+#: feincms/admin/tree_editor.py:533
+#, python-format
+msgid "Delete selected %(verbose_name_plural)s"
+msgstr "Удалить выбранные %(verbose_name_plural)s"
+
+#: feincms/content/application/models.py:178
+msgid "application content"
+msgstr "Данные приложения"
+
+#: feincms/content/application/models.py:179
+msgid "application contents"
+msgstr "Данные приложений"
+
+#: feincms/content/application/models.py:210
+msgid "application"
+msgstr "приложение"
+
+#: feincms/content/contactform/models.py:20
+msgid "name"
+msgstr "имя"
+
+#: feincms/content/contactform/models.py:21
+msgid "email"
+msgstr "email"
+
+#: feincms/content/contactform/models.py:22
+msgid "subject"
+msgstr "тема"
+
+#: feincms/content/contactform/models.py:26 feincms/content/raw/models.py:16
+msgid "content"
+msgstr "содержание"
+
+#: feincms/content/contactform/models.py:37
+msgid "contact form"
+msgstr "форма обратной связи"
+
+#: feincms/content/contactform/models.py:38
+msgid "contact forms"
+msgstr "формы обратной связи"
+
+#: feincms/content/file/models.py:23 feincms/content/file/models.py:28
+#: feincms/content/filer/models.py:47 feincms/content/filer/models.py:53
+#: feincms/module/medialibrary/models.py:95
+msgid "file"
+msgstr "файл"
+
+#: feincms/content/file/models.py:29 feincms/content/filer/models.py:54
+msgid "files"
+msgstr "файлы"
+
+#: feincms/content/filer/models.py:83 feincms/content/filer/models.py:99
+#: feincms/content/image/models.py:46 feincms/content/image/models.py:55
+msgid "image"
+msgstr "картинка"
+
+#: feincms/content/filer/models.py:85 feincms/content/image/models.py:51
+#: feincms/module/medialibrary/models.py:262
+msgid "caption"
+msgstr "подпись"
+
+#: feincms/content/filer/models.py:90
+msgid "URL"
+msgstr ""
+
+#: feincms/content/filer/models.py:100 feincms/content/image/models.py:56
+msgid "images"
+msgstr "картинки"
+
+#: feincms/content/filer/models.py:112 feincms/content/section/models.py:59
+#: feincms/module/medialibrary/contents.py:60
+msgid "type"
+msgstr "тип"
+
+#: feincms/content/image/models.py:49
+msgid "alternate text"
+msgstr "alt текст"
+
+#: feincms/content/image/models.py:50
+msgid "Description of image"
+msgstr "Описание изображения"
+
+#: feincms/content/image/models.py:82
+msgid "position"
+msgstr "расположение"
+
+#: feincms/content/image/models.py:90
+msgid "format"
+msgstr "формат"
+
+#: feincms/content/raw/models.py:20
+msgid "raw content"
+msgstr "HTML данные"
+
+#: feincms/content/raw/models.py:21
+msgid "raw contents"
+msgstr "HTML данные"
+
+#: feincms/content/richtext/models.py:33
+msgid "rich text"
+msgstr "форматированный текст"
+
+#: feincms/content/richtext/models.py:34
+msgid "rich texts"
+msgstr "форматированные тексты"
+
+#: feincms/content/richtext/models.py:46 feincms/content/section/models.py:36
+msgid "text"
+msgstr "текст"
+
+#: feincms/content/section/models.py:38
+#: feincms/module/medialibrary/contents.py:47
+#: feincms/module/medialibrary/fields.py:72
+#: feincms/module/medialibrary/models.py:113
+msgid "media file"
+msgstr "медиа-файл"
+
+#: feincms/content/section/models.py:43
+msgid "section"
+msgstr "секция"
+
+#: feincms/content/section/models.py:44
+msgid "sections"
+msgstr "секции"
+
+#: feincms/content/template/models.py:24
+msgid "template content"
+msgstr "содержимое шаблона"
+
+#: feincms/content/template/models.py:25
+msgid "template contents"
+msgstr "содержимое шаблонов"
+
+#: feincms/content/template/models.py:30 feincms/models.py:396
+msgid "template"
+msgstr "шаблон"
+
+#: feincms/content/video/models.py:34
+msgid "video link"
+msgstr "ссылка на видео"
+
+#: feincms/content/video/models.py:36
+msgid ""
+"This should be a link to a youtube or vimeo video, i.e.: http://www.youtube."
+"com/watch?v=zmj1rpzDRZ0"
+msgstr ""
+"Это должно быть ссылкой на видео, размещенное на youtube или vimeo, "
+"например, http://www.youtube.com/watch?v=zmj1rpzDRZ0"
+
+#: feincms/content/video/models.py:41
+msgid "video"
+msgstr "видео"
+
+#: feincms/content/video/models.py:42
+msgid "videos"
+msgstr "видео"
+
+#: feincms/contrib/tagging.py:138
+msgid "Tagging"
+msgstr "Теггирование"
+
+#: feincms/extensions/changedate.py:42
+msgid "creation date"
+msgstr "дата создания"
+
+#: feincms/extensions/changedate.py:44
+msgid "modification date"
+msgstr "дата изменения"
+
+#: feincms/extensions/ct_tracker.py:153
+msgid "content types"
+msgstr "типы данных"
+
+#: feincms/extensions/datepublisher.py:82
+msgid "publication date"
+msgstr "дата публикации"
+
+#: feincms/extensions/datepublisher.py:86
+msgid "publication end date"
+msgstr "дата окончания публикации"
+
+#: feincms/extensions/datepublisher.py:89
+msgid "Leave empty if the entry should stay active forever."
+msgstr "Оставьте поле пустым, если запись должна оставаться активной навсегда."
+
+#: feincms/extensions/datepublisher.py:125
+msgid "visible from - to"
+msgstr "отображается с - по"
+
+#: feincms/extensions/datepublisher.py:136
+msgid "Date-based publishing"
+msgstr "Дато-ориентированная публикация"
+
+#: feincms/extensions/featured.py:18
+msgid "featured"
+msgstr "избранное"
+
+#: feincms/extensions/featured.py:24
+msgid "Featured"
+msgstr "Избранное"
+
+#: feincms/extensions/seo.py:16
+msgid "meta keywords"
+msgstr "Ключевые слова"
+
+#: feincms/extensions/seo.py:18
+msgid "Keywords are ignored by most search engines."
+msgstr "Ключевые слова игнорируют большинство поисковиков"
+
+#: feincms/extensions/seo.py:20
+msgid "meta description"
+msgstr "Описание"
+
+#: feincms/extensions/seo.py:22
+msgid ""
+"This text is displayed on the search results page. It is however not used "
+"for the SEO ranking. Text longer than 140 characters is truncated."
+msgstr ""
+"Этот текст отображается в выдаче поисковиков. Но оно не используется для SEO "
+"ранжирования. Текст длиннее 140 символов усекается."
+
+#: feincms/extensions/seo.py:32
+msgid "Search engine optimization"
+msgstr "SEO Оптимизация"
+
+#: feincms/extensions/translations.py:161 feincms/translations.py:282
+msgid "language"
+msgstr "язык"
+
+#: feincms/extensions/translations.py:169
+msgid "translation of"
+msgstr "перевод"
+
+#: feincms/extensions/translations.py:173
+msgid "Leave this empty for entries in the primary language."
+msgstr "Оставьте поле пустым для записей на основном языке (%s)."
+
+#: feincms/extensions/translations.py:282
+msgid "Edit translation"
+msgstr "Изменить перевод"
+
+#: feincms/extensions/translations.py:289
+msgid "Create translation"
+msgstr "Создать перевод"
+
+#: feincms/extensions/translations.py:297
+msgid "translations"
+msgstr "переводы"
+
+#: feincms/models.py:522
+msgid "ordering"
+msgstr "сортировка"
+
+#: feincms/module/medialibrary/contents.py:48
+#: feincms/module/medialibrary/models.py:114
+msgid "media files"
+msgstr "медиа-файлы"
+
+#: feincms/module/medialibrary/forms.py:29
+msgid "This would create a loop in the hierarchy"
+msgstr "Это создало бы зацикливание в иерархии"
+
+#: feincms/module/medialibrary/forms.py:74
+#, python-format
+msgid ""
+"Cannot overwrite with different file type (attempt to overwrite a "
+"%(old_ext)s with a %(new_ext)s)"
+msgstr ""
+"Невозможно перезаписать с различным типом файла (попытка перезаписать "
+"%(old_ext)s с %(new_ext)s)"
+
+#: feincms/module/medialibrary/modeladmins.py:63
+#, python-format
+msgid "Successfully added %(count)d media file to %(category)s."
+msgid_plural "Successfully added %(count)d media files to %(category)s."
+msgstr[0] "%(count)d медиа-файл успешно добавлен в %(category)s."
+msgstr[1] "%(count)d медиа-файла успешно добавлены в %(category)s."
+msgstr[2] "%(count)d медиа-файлов успешно добавлены в %(category)s."
+
+#: feincms/module/medialibrary/modeladmins.py:84
+msgid "Add selected media files to category"
+msgstr "Добавить выбранные медиа-файлы в категорию"
+
+#: feincms/module/medialibrary/modeladmins.py:94
+#, python-format
+msgid "ZIP file exported as %s"
+msgstr "ZIP файл экспортирован как %s"
+
+#: feincms/module/medialibrary/modeladmins.py:96
+#, python-format
+msgid "ZIP file export failed: %s"
+msgstr "Экспорт ZIP файла не удался: %s"
+
+#: feincms/module/medialibrary/modeladmins.py:104
+msgid "Export selected media files as zip file"
+msgstr "Экспортировать выбранные медиа-файлы как ZIP архив"
+
+#: feincms/module/medialibrary/modeladmins.py:153
+#: feincms/templates/admin/feincms/page/page/item_editor.html:11
+msgid "Preview"
+msgstr "Предпросмотр"
+
+#: feincms/module/medialibrary/modeladmins.py:158
+#: feincms/module/medialibrary/models.py:104
+msgid "file size"
+msgstr "размер файла"
+
+#: feincms/module/medialibrary/modeladmins.py:163
+#: feincms/module/medialibrary/models.py:101
+msgid "created"
+msgstr "создан"
+
+#: feincms/module/medialibrary/modeladmins.py:183
+#: feincms/module/medialibrary/models.py:98
+msgid "file type"
+msgstr "тип файла"
+
+#: feincms/module/medialibrary/modeladmins.py:207
+msgid "file info"
+msgstr "информация о файле"
+
+#: feincms/module/medialibrary/modeladmins.py:220
+#, python-format
+msgid "%d files imported"
+msgstr "%d файлов импортировано"
+
+#: feincms/module/medialibrary/modeladmins.py:222
+#, python-format
+msgid "ZIP import failed: %s"
+msgstr "ZIP импорт не удался: %s"
+
+#: feincms/module/medialibrary/modeladmins.py:224
+msgid "No input file given"
+msgstr "Не получен входной файл"
+
+#: feincms/module/medialibrary/models.py:49
+msgid "parent"
+msgstr "родитель"
+
+#: feincms/module/medialibrary/models.py:51 feincms/module/page/models.py:156
+msgid "slug"
+msgstr "путь в URL"
+
+#: feincms/module/medialibrary/models.py:55
+msgid "category"
+msgstr "категория"
+
+#: feincms/module/medialibrary/models.py:56
+#: feincms/module/medialibrary/models.py:107
+msgid "categories"
+msgstr "категории"
+
+#: feincms/module/medialibrary/models.py:102
+msgid "copyright"
+msgstr "копирайт"
+
+#: feincms/module/medialibrary/models.py:220
+msgid "Image"
+msgstr "Изображение"
+
+#: feincms/module/medialibrary/models.py:222
+msgid "Video"
+msgstr "Видео"
+
+#: feincms/module/medialibrary/models.py:225
+msgid "Audio"
+msgstr "Аудио"
+
+#: feincms/module/medialibrary/models.py:227
+msgid "PDF document"
+msgstr "Документ PDF"
+
+#: feincms/module/medialibrary/models.py:228
+msgid "Flash"
+msgstr "Флэш"
+
+#: feincms/module/medialibrary/models.py:229
+msgid "Text"
+msgstr "Текст"
+
+#: feincms/module/medialibrary/models.py:230
+msgid "Rich Text"
+msgstr "Форматтированный текст"
+
+#: feincms/module/medialibrary/models.py:231
+msgid "Zip archive"
+msgstr "Zip архив"
+
+#: feincms/module/medialibrary/models.py:232
+msgid "Microsoft Word"
+msgstr ""
+
+#: feincms/module/medialibrary/models.py:234
+msgid "Microsoft Excel"
+msgstr ""
+
+#: feincms/module/medialibrary/models.py:236
+msgid "Microsoft PowerPoint"
+msgstr ""
+
+#: feincms/module/medialibrary/models.py:238
+msgid "Binary"
+msgstr "Двоичный"
+
+#: feincms/module/medialibrary/models.py:263
+msgid "description"
+msgstr "описание"
+
+#: feincms/module/medialibrary/models.py:266
+msgid "media file translation"
+msgstr "перевод медиа-файла"
+
+#: feincms/module/medialibrary/models.py:267
+msgid "media file translations"
+msgstr "переводы медиа-файлов"
+
+#: feincms/module/page/extensions/excerpt.py:18
+msgid "excerpt"
+msgstr "отрывок"
+
+#: feincms/module/page/extensions/excerpt.py:21
+msgid "Add a brief excerpt summarizing the content of this page."
+msgstr "Добавьте краткий отрывок резюмируя содержание"
+
+#: feincms/module/page/extensions/excerpt.py:25
+msgid "Excerpt"
+msgstr "Отрывок"
+
+#: feincms/module/page/extensions/navigation.py:90
+#: feincms/module/page/extensions/navigation.py:152
+msgid "navigation extension"
+msgstr "расширение навигации"
+
+#: feincms/module/page/extensions/navigation.py:156
+msgid ""
+"Select the module providing subpages for this page if you need to customize "
+"the navigation."
+msgstr ""
+"Выберите модуль который обеспечит подстраницы для этой страницы, если вам "
+"нужно настроитьнавигацию."
+
+#: feincms/module/page/extensions/navigation.py:179
+msgid "Navigation extension"
+msgstr "Расширение навигации"
+
+#: feincms/module/page/extensions/navigationgroups.py:17
+msgid "Default"
+msgstr ""
+
+#: feincms/module/page/extensions/navigationgroups.py:18
+msgid "Footer"
+msgstr ""
+
+#: feincms/module/page/extensions/navigationgroups.py:25
+#, fuzzy
+#| msgid "in navigation"
+msgid "navigation group"
+msgstr "в навигации"
+
+#: feincms/module/page/extensions/relatedpages.py:20
+msgid "Select pages that should be listed as related content."
+msgstr "Выберите страницы, которые должны быть отображены как похожие."
+
+#: feincms/module/page/extensions/relatedpages.py:25
+msgid "Related pages"
+msgstr "Похожие страницы"
+
+#: feincms/module/page/extensions/sites.py:21
+msgid "Site"
+msgstr "Сайт"
+
+#: feincms/module/page/extensions/symlinks.py:22
+msgid "symlinked page"
+msgstr "страница привязанная символической ссылкой"
+
+#: feincms/module/page/extensions/symlinks.py:23
+msgid "All content is inherited from this page if given."
+msgstr "Все содержимое наследуется с этой страницы."
+
+#: feincms/module/page/extensions/titles.py:19
+msgid "content title"
+msgstr "Заголовок содержимого"
+
+#: feincms/module/page/extensions/titles.py:22
+msgid "The first line is the main title, the following lines are subtitles."
+msgstr "Первая строка — основной заголовок, следующие строки — подзаголовки."
+
+#: feincms/module/page/extensions/titles.py:26
+msgid "page title"
+msgstr "заголовок страницы"
+
+#: feincms/module/page/extensions/titles.py:30
+#, fuzzy
+msgid ""
+"Page title for browser window. Same as title by default. Must be 69 "
+"characters or fewer."
+msgstr ""
+"Заголовок страницы для окна браузера. По умолчанию = просто заголовку "
+"страницы."
+
+#: feincms/module/page/extensions/titles.py:60
+msgid "Titles"
+msgstr "Заголовки"
+
+#: feincms/module/page/forms.py:185
+msgid "This URL is already taken by an active page."
+msgstr "Этот URL уже занят активной страницей."
+
+#: feincms/module/page/forms.py:204
+msgid "This URL is already taken by another active page."
+msgstr "Этот URL уже занят другой активной страницей."
+
+#: feincms/module/page/forms.py:209
+msgid "This page does not allow attachment of child pages"
+msgstr "Эта страница не позволяет создание дочерних страниц"
+
+#: feincms/module/page/modeladmins.py:47
+msgid "Other options"
+msgstr "Другие параметры"
+
+#: feincms/module/page/modeladmins.py:85 feincms/module/page/models.py:163
+msgid "in navigation"
+msgstr "в навигации"
+
+#: feincms/module/page/modeladmins.py:114
+#: feincms/module/page/modeladmins.py:116
+msgid "Add child page"
+msgstr "Добавить дочернюю страницу"
+
+#: feincms/module/page/modeladmins.py:125
+#: feincms/module/page/modeladmins.py:127
+#: feincms/templates/admin/feincms/content_inline.html:10
+msgid "View on site"
+msgstr "Посмотреть на сайте"
+
+#: feincms/module/page/modeladmins.py:147
+#, python-format
+msgid "Add %(language)s translation of \"%(page)s\""
+msgstr "Добавить %(language)s перевод \"%(page)s\""
+
+#: feincms/module/page/modeladmins.py:182
+msgid ""
+"The content from the original translation has been copied to the newly "
+"created page."
+msgstr ""
+"Содержание на языке по-умолчанию было скопировано в свежесозданную страницу."
+
+#: feincms/module/page/modeladmins.py:198
+msgid "You don't have the necessary permissions to edit this object"
+msgstr "Вы не имеете необходимые права на изменение этого объекта"
+
+#: feincms/module/page/modeladmins.py:225
+msgid "inherited"
+msgstr "унаследованный"
+
+#: feincms/module/page/modeladmins.py:231
+msgid "extensions"
+msgstr "расширения"
+
+#: feincms/module/page/modeladmins.py:235 feincms/module/page/models.py:206
+msgid "is active"
+msgstr "активная?"
+
+#: feincms/module/page/models.py:150
+msgid "active"
+msgstr "активная"
+
+#: feincms/module/page/models.py:154
+#, fuzzy
+msgid "This title is also used for navigation menu items."
+msgstr "Этот заголовок также используется в навигации."
+
+#: feincms/module/page/models.py:157
+msgid "This is used to build the URL for this page"
+msgstr "Это используется для создания URL этой страницы"
+
+#: feincms/module/page/models.py:165
+msgid "override URL"
+msgstr "переопределение URL"
+
+#: feincms/module/page/models.py:167
+msgid ""
+"Override the target URL. Be sure to include slashes at the beginning and at "
+"the end if it is a local URL. This affects both the navigation and subpages' "
+"URLs."
+msgstr ""
+"Переопределение целевой URL. Не забудьте добавить слэш в начале и в конце, "
+"если это локальный URL. Это влияет на навигацию и URL дочерних страниц."
+
+#: feincms/module/page/models.py:171
+msgid "redirect to"
+msgstr "редирект на"
+
+#: feincms/module/page/models.py:174
+msgid "Target URL for automatic redirects or the primary key of a page."
+msgstr ""
+"Целевой URL для автоматических переадресации или первичный ключ страницы."
+
+#: feincms/module/page/models.py:177
+msgid "Cached URL"
+msgstr "Кешированный URL"
+
+#: feincms/module/page/models.py:279
+#, python-format
+msgid ""
+"This %(page_class)s uses a singleton template, and "
+"FEINCMS_SINGLETON_TEMPLATE_DELETION_ALLOWED=False"
+msgstr ""
+
+#: feincms/module/page/models.py:366
+msgid "page"
+msgstr "страница"
+
+#: feincms/module/page/models.py:367
+msgid "pages"
+msgstr "страницы"
+
+#: feincms/templates/admin/feincms/_messages_js.html:5
+msgid "Really delete item?"
+msgstr "Вы уверены, что хотите удалить элемент?"
+
+#: feincms/templates/admin/feincms/_messages_js.html:6
+#, fuzzy
+#| msgid "Really change template? <br />All changes are saved."
+msgid "Really change template? All changes are saved."
+msgstr "Точно сменить шаблон? <br/> Все изменения сохранены."
+
+#: feincms/templates/admin/feincms/_messages_js.html:7
+#, python-format
+msgid ""
+"Really change template? All changes are saved and content from "
+"%%(source_regions)s is moved to %%(target_region)s."
+msgstr ""
+
+#: feincms/templates/admin/feincms/_messages_js.html:8
+msgid "Move to region:"
+msgstr ""
+
+#: feincms/templates/admin/feincms/content_editor.html:15
+msgid "Copy content from the original"
+msgstr "Скопировать оригинальное содержимое"
+
+#: feincms/templates/admin/feincms/content_editor.html:19
+msgid "Region empty"
+msgstr "Регион пуст"
+
+#: feincms/templates/admin/feincms/content_editor.html:25
+msgid ""
+"Content from the parent site is automatically inherited. To override this "
+"behaviour, add some content."
+msgstr ""
+"Контент автоматически унаследован от родительского узла. Чтобы "
+"переопределить этоповедение, добавьте содержимое."
+
+#: feincms/templates/admin/feincms/content_inline.html:8
+#, fuzzy
+#| msgid "Change %s"
+msgid "Change"
+msgstr "Изменить %s"
+
+#: feincms/templates/admin/feincms/content_inline.html:27
+msgid "Remove"
+msgstr "Удалить"
+
+#: feincms/templates/admin/feincms/content_inline.html:28
+#, python-format
+msgid "Add another %(verbose_name)s"
+msgstr "Добавить еще %(verbose_name)s"
+
+#: feincms/templates/admin/feincms/content_type_selection_widget.html:3
+#, fuzzy
+#| msgid "Insert new:"
+msgid "Insert new content:"
+msgstr "Вставить перед этим элементом"
+
+#: feincms/templates/admin/feincms/item_editor.html:32
+msgid "available translations"
+msgstr "доступные переводы"
+
+#: feincms/templates/admin/feincms/page/page/item_editor.html:19
+#: feincms/templates/admin/feincms/page/page/tree_editor.html:7
+#: feincms/templates/admin/feincms/recover_form.html:7
+#: feincms/templates/admin/feincms/revision_form.html:7
+msgid "Home"
+msgstr "Начало"
+
+#: feincms/templates/admin/feincms/page/page/item_editor.html:23
+msgid "Add"
+msgstr "Добавить"
+
+#: feincms/templates/admin/feincms/recover_form.html:10
+#, python-format
+msgid "Recover deleted %(verbose_name)s"
+msgstr "Восстановить удаленные %(verbose_name)s"
+
+#: feincms/templates/admin/feincms/recover_form.html:16
+msgid "Press the save button below to recover this version of the object."
+msgstr "Нажмите кнопку Сохранить ниже, чтобы восстановить эту версию объекта."
+
+#: feincms/templates/admin/feincms/revision_form.html:11
+msgid "History"
+msgstr "История"
+
+#: feincms/templates/admin/feincms/revision_form.html:12
+#, python-format
+msgid "Revert %(verbose_name)s"
+msgstr "Восстановить %(verbose_name)s"
+
+#: feincms/templates/admin/feincms/revision_form.html:23
+msgid "Press the save button below to revert to this version of the object."
+msgstr "Нажмите кнопку Сохранить ниже, чтобы восстановить эту версию объекта."
+
+#: feincms/templates/admin/feincms/tree_editor.html:21
+msgid "Shortcuts"
+msgstr "Управление деревом"
+
+#: feincms/templates/admin/feincms/tree_editor.html:23
+msgid "Collapse tree"
+msgstr "Свернуть"
+
+#: feincms/templates/admin/feincms/tree_editor.html:24
+msgid "Expand tree"
+msgstr "Развернуть"
+
+#: feincms/templates/admin/feincms/tree_editor.html:28
+msgid "Filter"
+msgstr "Фильтр"
+
+#: feincms/templates/admin/filter.html:3
+#, python-format
+msgid " By %(filter_title)s "
+msgstr " По %(filter_title)s "
+
+#: feincms/templates/admin/medialibrary/add_to_category.html:5
+#: feincms/templates/admin/medialibrary/add_to_category.html:9
+msgid "Add media files to category"
+msgstr "Добавить медиа-файлы в категорию"
+
+#: feincms/templates/admin/medialibrary/add_to_category.html:11
+msgid "Select category to apply:"
+msgstr "Выберите категорию для применения:"
+
+#: feincms/templates/admin/medialibrary/add_to_category.html:17
+msgid "The following media files will be added to the selected category:"
+msgstr "Следующие медиа-файлы будут добавлены в выбранную категорию:"
+
+#: feincms/templates/admin/medialibrary/add_to_category.html:22
+msgid "Add to category"
+msgstr "Добавить в категорию"
+
+#: feincms/templates/admin/medialibrary/add_to_category.html:23
+msgid "Cancel"
+msgstr "Отмена"
+
+#: feincms/templates/admin/medialibrary/mediafile/change_list.html:10
+msgid "Bulk upload a ZIP file:"
+msgstr "Загрузить несколько файлов в ZIP-архиве:"
+
+#: feincms/templates/admin/medialibrary/mediafile/change_list.html:20
+msgid "Overwrite"
+msgstr "Перезаписать"
+
+#: feincms/templates/admin/medialibrary/mediafile/change_list.html:23
+msgid "Send"
+msgstr "Отправить"
+
+#: feincms/templates/content/contactform/form.html:9
+msgid "Submit"
+msgstr "Отправить"
+
+#: feincms/templates/content/contactform/thanks.html:3
+msgid "Thanks!"
+msgstr "Спасибо!"
+
+#~ msgid "enabled"
+#~ msgstr "включены"
+
+#~ msgid "New comments may be added"
+#~ msgstr "Новые комментарии могут быть добавлены"
+
+#~ msgid "comments"
+#~ msgstr "комментарии"
+
+#~ msgid "public"
+#~ msgstr "Опубликовано"
+
+#~ msgid "not public"
+#~ msgstr "Не опубликовано"
+
+#~ msgid "HTML Tidy"
+#~ msgstr "HTML Tidy"
+
+#~ msgid "Ignore the HTML validation warnings"
+#~ msgstr "Игнорировать предупреждения при валидации HTML"
+
+#~ msgid ""
+#~ "HTML validation produced %(count)d warnings. Please review the updated "
+#~ "content below before continuing: %(messages)s"
+#~ msgstr ""
+#~ "HTML валидация вызвала %(count)d предупреждений. Пожалуйста просмотрите "
+#~ "ниже обновленное содержимое прежде чем продолжить: %(messages)s"
+
+#~ msgid ""
+#~ "The rss field is updated several times a day. A change in the title will "
+#~ "only be visible on the home page after the next feed update."
+#~ msgstr ""
+#~ "RSS поле обновляется несколько раз в день. Изменение в названии будет "
+#~ "видно  на главной странице только после следующего обновления фида"
+
+#~ msgid "link"
+#~ msgstr "ссылка"
+
+#~ msgid "pre-rendered content"
+#~ msgstr "предподготовленное содержимое"
+
+#~ msgid "last updated"
+#~ msgstr "последнее обновление"
+
+#~ msgid "max. items"
+#~ msgstr "макс. число элементов"
+
+#~ msgid "RSS feed"
+#~ msgstr "RSS фид"
+
+#~ msgid "RSS feeds"
+#~ msgstr "RSS фиды"
+
+#~ msgid "tags"
+#~ msgstr "теги"
+
+#~ msgid "published"
+#~ msgstr "опубликовано"
+
+#~ msgid "This is used for the generated navigation too."
+#~ msgstr "Используется также в сгенерированно навигации."
+
+#~ msgid "published on"
+#~ msgstr "опубликовано"
+
+#~ msgid ""
+#~ "Will be set automatically once you tick the `published` checkbox above."
+#~ msgstr ""
+#~ "Будет установлено автоматически, как только Вы отметите пункт "
+#~ "\"опубликовано\" выше."
+
+#~ msgid "entry"
+#~ msgstr "запись"
+
+#~ msgid "entries"
+#~ msgstr "записи"
+
+#~ msgid "Confirm to delete item"
+#~ msgstr "Подтвердите удаление элемента"
+
+#~ msgid "Item deleted successfully."
+#~ msgstr "Элемент успешно удален."
+
+#~ msgid "Cannot delete item"
+#~ msgstr "Не выходит удалить элемент"
+
+#~ msgid "Cannot delete item, because it is parent of at least one other item."
+#~ msgstr ""
+#~ "Не выходит удалить элемент, т.к. он является родителем как минимум для "
+#~ "одного другого элемента."
+
+#~ msgid "Change template"
+#~ msgstr "Изменить шаблон"
+
+#~ msgid "Hide"
+#~ msgstr "Скрыть"
+
+#~ msgid "Show"
+#~ msgstr "Покзать"
+
+#~ msgid "After"
+#~ msgstr "После"
+
+#~ msgid "Before"
+#~ msgstr "До"
+
+#~ msgid "Add new item"
+#~ msgstr "Добавить элемент"
+
+#~ msgid "Save"
+#~ msgstr "Сохранить"
+
+#~ msgid "Stop Editing"
+#~ msgstr "Закончить редактирование"
+
+#~ msgid "edit"
+#~ msgstr "редактировать"
+
+#~ msgid "new"
+#~ msgstr "новый"
+
+#~ msgid "up"
+#~ msgstr "вверх"
+
+#~ msgid "down"
+#~ msgstr "вниз"
+
+#~ msgid "remove"
+#~ msgstr "удалить"
+
+#~ msgid "Edit on site"
+#~ msgstr "Редактировать на сайте"
+
+#~ msgid "%(comment_count)s comments."
+#~ msgstr "%(comment_count)s комментариев."
+
+#~ msgid ""
+#~ "\n"
+#~ "                    %(comment_username)s said on "
+#~ "%(comment_submit_date)s<br />\n"
+#~ "                "
+#~ msgstr ""
+#~ "\n"
+#~ "              Пользователь %(comment_username)s сказал "
+#~ "(%(comment_submit_date)s)<br />\n"
+#~ "                "
+
+#~ msgid "No comments."
+#~ msgstr "Комментариев нет."
+
+#~ msgid "Post Comment"
+#~ msgstr "Отправить комментарий"
+
+#~ msgid "table"
+#~ msgstr "таблица"
+
+#~ msgid "tables"
+#~ msgstr "таблицы"
+
+#~ msgid "data"
+#~ msgstr "данные"

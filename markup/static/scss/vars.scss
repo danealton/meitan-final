@@ -1,0 +1,35 @@
+// File for scss-vars.
+// For example: main colors, paddings and so on.
+
+$latoblack: 'latoblack', Helvetica, sans-serif;
+$latoheavy: 'latoheavy', Helvetica, sans-serif;
+$latoitalic: 'latoitalic', Helvetica, sans-serif;
+$latolight: 'latolight', Helvetica, sans-serif;
+$latoregular: 'latoregular', Helvetica, sans-serif;
+$latosemibold: 'latosemibold', Helvetica, sans-serif;
+$latomedium: 'latomedium', Helvetica, sans-serif;
+
+// colors
+$color-white: rgb(255,255,255);
+$color-black: rgb(0,0,0);
+$color-pink: rgb(236,45,99);
+$color-grey-ligher: rgb(220,220,220);
+$color-grey: rgb(249,249,249);
+$color-grey-medium: rgb(136,136,136);
+
+$text-color: rgb(25,24,24);
+
+// fonts
+$base-letter-spacing: 0.02em;
+
+// links
+$base-transition: .2s;
+$base-hover-transition: $base-transition;
+
+// z-index
+$base-z-index: 1;
+
+
+
+// override slick path
+$slick-loader-path: '../../node_modules/slick/';

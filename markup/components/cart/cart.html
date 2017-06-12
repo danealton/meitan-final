@@ -1,0 +1,39 @@
+<div class="cart hide" id="cart" data-toggler=".hide">
+    
+    <ul id="cart_items" class="row column">
+    {{#each cart_items}}
+        <li id="{{ this.id }}" class="cart_item">
+            <div class="row cart_item__inner_wrapper">
+                <div class="small-4 columns" class="">
+                    <img src="{{ this.image }}" class="cart_item__image" alt="{{ this.title }}" title="{{ this.title }}"/>
+                </div>
+                <div class="small-8 columns" class="">
+                    <div class="catalog-item-title">{{ this.title }}</div>
+                    <div class="catalog-item-series">{{ this.series }}</div>
+                    <div class="row">
+                        <div class="small-6 columns flex-container align-justify catalog-item-counter">
+                            <input type="text" id="countItems" value="1 шт." placeholder="1 шт.">
+                            <div class="btn js-item-count" data-count="add">+</div>
+                            <div class="btn js-item-count" data-count="remove">-</div>
+                          </div>
+                        <div class="small-6 columns">
+                            <div class="catalog-item-price">{{ this.price }} &#8381;</div>
+                        </div>
+                    </div>
+                    <a href="#" class="js-cart-remove">x</a>
+                </div>
+            </div>
+        </li>
+    {{/each}}
+    </ul>
+
+    <div class="row">
+        <div class="small-6 columns">
+            Итого:  1106 &#8381;
+        </div>
+        <div class="small-6 columns">
+            <button>Оформить заказ</button>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,54 @@
+<form id="filterCategory" action="" class="filter">
+
+  <div class="background-grey">
+    <div class="row">
+      <div class="small-6 columns filter-centred">
+        <legend>Цена:</legend>
+        <input type="radio" class="radio radio-button" name="changePrice" value="Любая" id="other">
+        <label for="other">Любая</label>
+
+        <input type="radio" class="radio radio-button" name="changePrice" value="до 60" id="60">
+        <label for="60">до 60</label>
+
+        <input type="radio" class="radio radio-button" name="changePrice" value="260" id="260">
+        <label for="260">260</label>
+
+        <input type="radio" class="radio radio-button" name="changePrice" value="460" id="460">
+        <label for="460">460</label>
+
+        <input type="radio" class="radio radio-button" name="changePrice" value="660" id="660">
+        <label for="660">660</label>
+
+        <input type="radio" class="radio radio-button" name="changePrice" value="860" id="860">
+        <label for="860">860</label>
+      </div>
+
+      <div class="small-6 columns filter-centred">
+        <legend>Серия:</legend>
+        <select name="changeSeries" id="change_series">
+          <option value="" selected disabled>Выбрать серию</option>
+          <option value="1">Серия 1</option>
+          <option value="2">Серия 2</option>
+          <option value="3">Серия 3</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div class="row columns">
+    <fieldset>
+      <input type="radio" class="radio radio-text" name="changeParams" value="forPrice" id="forPrice">
+      <label for="forPrice">По цене</label>
+
+      <input type="radio" class="radio radio-text" name="changeParams" value="forPopular" id="forPopular">
+      <label for="forPopular">По популярности</label>
+
+      <input type="radio" class="radio radio-text" name="changeParams" value="forSeries" id="forSeries">
+      <label for="forSeries">По сериям</label>
+
+      <input type="radio" class="radio radio-text" name="changeParams" value="forNew" id="forNew">
+      <label for="forNew">Новинки</label>
+    </fieldset>
+  </div>
+
+</form>

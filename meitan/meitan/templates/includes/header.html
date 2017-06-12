@@ -1,0 +1,71 @@
+{% load i18n %}
+{% load staticfiles %}
+{% load feincms_page_tags %}
+{% feincms_nav feincms_page as menu_pages %}
+{% load applicationcontent_tags %}
+
+
+{% with total_items=cart|length %}
+<header class="header">
+
+    <div class="row">
+        <div class="medium-3 columns">
+            <a href="/" class="logo logo-text" title="Интернет магазин косметики">
+                <img src="{% static "img/general/logotype.png" %}" alt="Интернет магазин косметики" title="Интернет магазин косметики"/>
+                <span>Интернет магазин косметики</span>
+            </a>
+        </div>
+
+        <nav class="medium-9 columns nav">
+            <ul class="">
+            {% for page in menu_pages %}
+                <li>
+                  <a href="{{page.get_absolute_url}}">
+                   {{page.title}}
+                  </a>
+                </li>
+                {% endfor %}
+            </ul>
+            <div class="cart-icon">
+                <img src="{% static "img/general/icon-cart.png" %}" alt="" title=""/>
+
+                <span class="cart-count">{{ total_items }}</span>
+
+            </div>
+            <div class="search-icon">
+                <img src="{% static "img/general/icon-search.png"%}" alt="" title=""/>
+            </div>
+        </nav>
+
+    </div>
+
+    {% for item in cart %}
+        {% with product=item.product %}
+          <tr>
+            <td class="cart-img">
+              <a href="{{ product.get_absolute_url }}">
+                <img src="{{ product.get_image_sm }}" class="img-responsive" />
+              </a>
+            </td>
+            <td>{{ product.name }}</td>
+            <td>
+            </td>
+            <td><a href="{% app_reverse "CartRemove" "products.urls" product.id %}">Удалить</a></td>
+            <td class="num">{{ item.price }} руб.</td>
+            <td class="num">{{ item.total_price }} руб.</td>
+            <td class="num">{{ item.quantity }}</td>
+          </tr>
+        {% endwith %}
+      {% endfor %}
+
+      <form method="GET" action="{% app_reverse "offer" "sales.urls" %}">{% csrf_token %}
+            <input type="text" name="customer_name" placeholder="customer_name" required>
+            <input type="text" name="customer_adress" placeholder="customer_adress" required>
+            <input type="text" name="customer_phone" placeholder="customer_phone" required>
+            <input type="text" name="customer_email" placeholder="customer_email" required>
+            <input type="submit" name="offer" value="Отправить" class="button"></input>
+      </form>
+
+
+</header>
+{% endwith %}

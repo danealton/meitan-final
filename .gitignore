@@ -1,0 +1,27 @@
+node_modules
+.DS_Store
+._.DS_Store
+
+.tmpTemplater
+.tmpPreproc
+
+.idea
+npm-debug.log
+phantomjsdriver.log
+/nbproject/*
+
+**/sprite_96.*
+**/svg-fallback-sprite.*
+**/svg-sprite.*
+
+# static output
+dev/
+dev
+
+# python stafff
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+meitan/meitan/local_settings.py
+meitan/db.sqlite3

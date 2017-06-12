@@ -1,0 +1,24 @@
+<section id="last_news" class="catalog catalog-line-decor block-news">
+	<div class="row column catalog-title-wrapper">
+		<h3 class="catalog-title">Последние новости</h3>
+		<div class="arrow-left"></div>
+		<div class="arrow-right"></div>
+	</div>
+	<div id="last_news_slider" class="row small-up-1 medium-up-2 large-up-3">
+	{{#each items_last_news}}
+		<div class="column catalog-item" id="{{ this.id }}">
+			<div class="catalog-item-image">
+				<a href="{{ this.url }}" title="{{ this.title }}" alt="{{ this.title }}">
+					<img src="{{ this.image }}" alt="{{ this.title }}" title="{{ this.title }}" />
+				</a>
+			</div>
+			<div class="block-news-padding">
+				<div class="catalog-item-subtitle">{{ this.date }}</div>
+				<a href="{{ this.url }}" class=""><h3 class="catalog-item-title">{{ this.title }}</h3></a>
+				<p class="catalog-item-text">{{ this.text }}</p>
+			</div>
+		</div>
+	{{/each}}	
+	</div>
+
+</section>

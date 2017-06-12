@@ -1,0 +1,51 @@
+.filter {
+  margin-bottom: 30px;
+
+  legend {
+    margin-right: 20px;
+  }
+  select {
+    border: 1px solid $color-grey-medium;
+    border-radius: 3px;
+  }
+  &-centred {
+    display: flex;
+    align-items: center;
+  }
+  .background-grey {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+.radio {
+  display: none;
+}
+.radio + label {
+  margin: 0 10px;
+  cursor: pointer;
+}
+.radio.radio-button:not(checked) + label {
+  position: relative;
+  padding: 3px 15px;
+  border: 1px solid $color-grey-medium;
+  border-radius: 3px;
+  text-transform: lowercase;
+  background-color: $color-white;
+}
+.radio.radio-button:checked + label {
+  border-color: $color-pink;
+  background-color: lighten($color-pink, 40);
+}
+
+.radio.radio-text + label {
+  line-height: 18px;
+}
+.radio.radio-text:not(checked) + label {
+  position: relative;
+  color: $text-color;
+  border-bottom: 1px dotted;
+}
+.radio.radio-text:checked + label {
+  color: $color-pink;
+}

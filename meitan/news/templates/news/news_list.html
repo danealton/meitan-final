@@ -1,0 +1,19 @@
+{% load i18n %}
+
+
+
+<div class="head-page">{% trans "Новости" %}</div>
+
+<div class="container">
+ <div class="media ">
+   {% for news in object_list %}
+  <div class="item">
+			 <div class="sc-date">{{news.date}}</div>
+			 <div class="sc-hd">{{news.title}}</div>
+			 <div class="image"><img src="{{news.get_image_sm}}" alt="{{news.get_image_sm}}"></div>
+			 <div class="txt">{{news.text_preview}}</div>
+			 <div class="link"><a href="{{ news.get_absolute_url }}">{% trans "Читать далее" %}</a></div>
+		 </div>
+ {% endfor %}
+ </div>
+</div>

@@ -1,0 +1,23 @@
+ <section id="last_news" class="catalog catalog-line-decor block-news">
+            	<div class="row column catalog-title-wrapper">
+            		<h3 class="catalog-title">Последние новости</h3>
+            		<div class="arrow-left"></div>
+            		<div class="arrow-right"></div>
+            	</div>
+            	{% for news in ctx.news %}
+            	<div id="last_news_slider" class="row small-up-1 medium-up-2 large-up-3">
+            		<div class="column catalog-item" id="1">
+            			<div class="catalog-item-image">
+            				<a href="{{ news.get_absolute_url }}" title="Премьера! Новый каталог от Мей Тан  “ЗИМА 2016 — 2017”" alt="Премьера! Новый каталог от Мей Тан  “ЗИМА 2016 — 2017”">
+            					<img src="{{ news.get_image_sm }}" alt="Премьера! Новый каталог от Мей Тан  “ЗИМА 2016 — 2017”" title="Премьера! Новый каталог от Мей Тан  “ЗИМА 2016 — 2017”" />
+            				</a>
+            			</div>
+            			<div class="block-news-padding">
+            				<div class="catalog-item-subtitle">{{ news.created_at }}</div>
+            				<a href="news-item.html" class=""><h3 class="catalog-item-title">{{ news.title }}</h3></a>
+            				<p class="catalog-item-text">{{ news.text_preview }}</p>
+            			</div>
+            		</div>
+            		</div>
+               {% endfor %}
+</section>

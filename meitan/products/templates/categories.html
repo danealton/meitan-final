@@ -1,0 +1,9 @@
+{% load applicationcontent_tags %}
+
+<nav class="menu-wrapper">
+    <ul class="row menu-catalog">
+        {% for category in categories %}
+         <li><a href="{% app_reverse "product_list" "products.urls" %}?category_id={{category.id}}">{{ category.title }}</a></li>
+        {% endfor %}
+    </ul>
+</nav>

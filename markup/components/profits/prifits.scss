@@ -1,0 +1,36 @@
+.profits {
+
+	&-wrapper {
+		padding-top: 50px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&-item {
+		position: relative;
+		display: flex;
+	    align-items: center;
+	    justify-content: center;
+
+		// &:nth-child(1) {
+		// 	background-image: url();
+		// }
+	}
+
+	&-title {
+		font: 18px latosemibold;
+		letter-spacing: $base-letter-spacing;
+		color: $color-white;
+		text-transform: uppercase;
+
+		position: absolute;
+		padding-left: 60px;
+	}
+
+	&-icon {
+		position: absolute;
+	    left: 0;
+	    top: 50%;
+	    transform: translateY(-50%);
+	}
+}

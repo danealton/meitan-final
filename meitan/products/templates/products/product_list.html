@@ -1,0 +1,89 @@
+{% load staticfiles %}
+{% load applicationcontent_tags %}
+
+<nav aria-label="You are here:" class="row column" role="navigation">
+    <ul class="breadcrumbs">
+        <li>
+            <a href="{% app_reverse "product_list" "products.urls" %}">Каталог</a>
+        </li>
+        <li><span class="show-for-sr">Current:</span>{{ active_category.title }}</li>
+    </ul>
+</nav>
+
+<form id="filterCategory" action="">
+
+  <div class="row">
+    <fieldset class="small-6 columns">
+      <legend>Цена:</legend>
+      <input type="radio" name="changePrice" value="0" id="other">
+      <label for="other">Любая</label>
+
+      <input type="radio" name="changePrice" value="60" id="60">
+      <label for="60">до 60</label>
+
+      <input type="radio" name="changePrice" value="260" id="260">
+      <label for="260">260</label>
+
+      <input type="radio" name="changePrice" value="460" id="460">
+      <label for="460">460</label>
+
+      <input type="radio" name="changePrice" value="660" id="660">
+      <label for="660">660</label>
+
+      <input type="radio" name="changePrice" value="860" id="860">
+      <label for="860">860</label>
+    </fieldset>
+
+    <div class="small-6 columns">
+      <legend>Серия:</legend>
+      <select name="changeSeries" id="change_series">
+        <option value="" selected disabled>Выбрать серию</option>
+        {% for product in value_products %}
+        <option value="{{product.subtitle}}">{{product.subtitle}}</option>
+        {% endfor %}
+
+      </select>
+    </div>
+  </div>
+
+  <div class="row columns">
+    <fieldset>
+      <input type="radio" name="changeParams" value="forPrice" id="forPrice">
+      <label for="forPrice">По цене</label>
+
+      <input type="radio" name="changeParams" value="forSeries" id="forSeries">
+      <label for="forSeries">По сериям</label>
+
+      <input type="radio" name="changeParams" value="forNew" id="forNew">
+      <label for="forNew">Новинки</label>
+    </fieldset>
+  </div>
+
+</form>
+
+<section class="row small-up-1 medium-up-2 large-up-3 catalog">
+    {% for product in products %}
+    <div class="column catalog-item lazy" data-loader="customLoaderName">
+        <a class="" href="{{ product.get_absolute_url }}">
+        <div class="catalog-item-image"><img alt="Алтайские фитокапсулы &quot;Дышать полной грудью&quot;" src="{{ product.get_image_sm }}" title="Алтайские фитокапсулы &quot;Дышать полной грудью&quot;"></div>
+        <div class="catalog-item-series">
+            {{ product.subtitle }}
+        </div>
+        <div class="catalog-item-title">
+            {{ product.title }}
+        </div>
+        <div class="catalog-item-price">
+           {{ product.price }} &#8381;
+        </div>
+
+    <form action="{% app_reverse "CartAdd" "products.urls" product.id %}" method="post" class="add">
+      {{ cart_product_form }}
+      {% csrf_token %}
+      <input type="submit" value="Добавить в корзину">
+    </form>
+      </div>
+    {% endfor %}
+</section>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>

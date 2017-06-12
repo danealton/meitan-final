@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% load feincms_tags %}
+{% load categories %}
+
+
+
+
+{% block content %}
+
+  {% include "includes/header.html" %}
+
+  {% include "includes/menu.html" %}
+
+  <!--<div class="fake_padding"></div>-->
+
+  <section class="site-content">
+
+    {% for content in feincms_page.content.main %}
+      {% feincms_render_content content request %}
+    {% endfor %}
+  </section>
+  
+  {% include "includes/footer.html" %}
+
+
+
+
+{% endblock content %}

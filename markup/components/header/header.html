@@ -1,0 +1,35 @@
+<header class="header">
+    <div class="row">
+
+        <div class="medium-3 columns">
+            <a href="/" class="logo logo-text" title="Интернет магазин косметики">
+                <img src="__static__img/general/logotype.png" alt="Интернет магазин косметики" title="Интернет магазин косметики"/>
+                <span>Интернет магазин косметики</span>
+            </a>
+        </div>
+
+        <nav class="medium-9 columns nav">
+
+            <ul class="">
+                {{> navigation/navigation nav.pages}}
+            </ul>
+
+            <div data-toggle="cart" class="cart-icon">
+                <img src="__static__img/general/icon-cart.png" alt="" title=""/>
+                <span class="cart-count">4</span>
+                
+                <!-- Include cart -->
+                {{> cart/cart}}
+            </div>
+            
+            <!-- div.row>.column*3>img+.catalog-item-title+.catalog-item-series+.catalog-item-price -->
+            <div data-toggle="search" class="search-icon">
+                <img src="__static__img/general/icon-search.png" alt="" title=""/>
+            </div>
+           <!--  <div class="search" id="search" data-toggler data-animate="hinge-in-from-top spin-out">
+                <input type="search"/>
+            </div> -->
+        </nav>
+
+    </div> <!-- end row -->
+</header>

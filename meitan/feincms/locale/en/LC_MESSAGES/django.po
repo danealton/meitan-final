@@ -1,0 +1,810 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-24 13:53+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: feincms/admin/filters.py:49 feincms/admin/filters.py:97
+msgid "All"
+msgstr ""
+
+#: feincms/admin/filters.py:60 feincms/module/page/models.py:159
+msgid "Parent"
+msgstr ""
+
+#: feincms/admin/filters.py:108
+#: feincms/templates/admin/medialibrary/mediafile/change_list.html:13
+msgid "Category"
+msgstr ""
+
+#: feincms/admin/tree_editor.py:278 feincms/content/section/models.py:35
+#: feincms/module/medialibrary/models.py:45 feincms/module/page/models.py:153
+#: feincms/module/page/models.py:225
+msgid "title"
+msgstr ""
+
+#: feincms/admin/tree_editor.py:326 feincms/admin/tree_editor.py:343
+msgid "You do not have permission to modify this object"
+msgstr ""
+
+#: feincms/admin/tree_editor.py:459
+msgid "No permission"
+msgstr ""
+
+#: feincms/admin/tree_editor.py:477
+#, python-format
+msgid "%s has been moved to a new position."
+msgstr ""
+
+#: feincms/admin/tree_editor.py:480
+msgid "Did not understand moving instruction."
+msgstr ""
+
+#: feincms/admin/tree_editor.py:491
+msgid "actions"
+msgstr ""
+
+#: feincms/admin/tree_editor.py:520
+#, python-format
+msgid "Successfully deleted %(count)d items."
+msgstr ""
+
+#: feincms/admin/tree_editor.py:533
+#, python-format
+msgid "Delete selected %(verbose_name_plural)s"
+msgstr ""
+
+#: feincms/content/application/models.py:178
+msgid "application content"
+msgstr ""
+
+#: feincms/content/application/models.py:179
+msgid "application contents"
+msgstr ""
+
+#: feincms/content/application/models.py:210
+msgid "application"
+msgstr ""
+
+#: feincms/content/contactform/models.py:20
+msgid "name"
+msgstr ""
+
+#: feincms/content/contactform/models.py:21
+msgid "email"
+msgstr ""
+
+#: feincms/content/contactform/models.py:22
+msgid "subject"
+msgstr ""
+
+#: feincms/content/contactform/models.py:26 feincms/content/raw/models.py:16
+msgid "content"
+msgstr ""
+
+#: feincms/content/contactform/models.py:37
+msgid "contact form"
+msgstr ""
+
+#: feincms/content/contactform/models.py:38
+msgid "contact forms"
+msgstr ""
+
+#: feincms/content/file/models.py:23 feincms/content/file/models.py:28
+#: feincms/content/filer/models.py:47 feincms/content/filer/models.py:53
+#: feincms/module/medialibrary/models.py:95
+msgid "file"
+msgstr ""
+
+#: feincms/content/file/models.py:29 feincms/content/filer/models.py:54
+msgid "files"
+msgstr ""
+
+#: feincms/content/filer/models.py:83 feincms/content/filer/models.py:99
+#: feincms/content/image/models.py:46 feincms/content/image/models.py:55
+msgid "image"
+msgstr ""
+
+#: feincms/content/filer/models.py:85 feincms/content/image/models.py:51
+#: feincms/module/medialibrary/models.py:262
+msgid "caption"
+msgstr ""
+
+#: feincms/content/filer/models.py:90
+msgid "URL"
+msgstr ""
+
+#: feincms/content/filer/models.py:100 feincms/content/image/models.py:56
+msgid "images"
+msgstr ""
+
+#: feincms/content/filer/models.py:112 feincms/content/section/models.py:59
+#: feincms/module/medialibrary/contents.py:60
+msgid "type"
+msgstr ""
+
+#: feincms/content/image/models.py:49
+msgid "alternate text"
+msgstr ""
+
+#: feincms/content/image/models.py:50
+msgid "Description of image"
+msgstr ""
+
+#: feincms/content/image/models.py:82
+msgid "position"
+msgstr ""
+
+#: feincms/content/image/models.py:90
+msgid "format"
+msgstr ""
+
+#: feincms/content/raw/models.py:20
+msgid "raw content"
+msgstr ""
+
+#: feincms/content/raw/models.py:21
+msgid "raw contents"
+msgstr ""
+
+#: feincms/content/richtext/models.py:33
+msgid "rich text"
+msgstr ""
+
+#: feincms/content/richtext/models.py:34
+msgid "rich texts"
+msgstr ""
+
+#: feincms/content/richtext/models.py:46 feincms/content/section/models.py:36
+msgid "text"
+msgstr ""
+
+#: feincms/content/section/models.py:38
+#: feincms/module/medialibrary/contents.py:47
+#: feincms/module/medialibrary/fields.py:72
+#: feincms/module/medialibrary/models.py:113
+msgid "media file"
+msgstr ""
+
+#: feincms/content/section/models.py:43
+msgid "section"
+msgstr ""
+
+#: feincms/content/section/models.py:44
+msgid "sections"
+msgstr ""
+
+#: feincms/content/template/models.py:24
+msgid "template content"
+msgstr ""
+
+#: feincms/content/template/models.py:25
+msgid "template contents"
+msgstr ""
+
+#: feincms/content/template/models.py:30 feincms/models.py:396
+msgid "template"
+msgstr ""
+
+#: feincms/content/video/models.py:34
+msgid "video link"
+msgstr ""
+
+#: feincms/content/video/models.py:36
+msgid ""
+"This should be a link to a youtube or vimeo video, i.e.: http://www.youtube."
+"com/watch?v=zmj1rpzDRZ0"
+msgstr ""
+
+#: feincms/content/video/models.py:41
+msgid "video"
+msgstr ""
+
+#: feincms/content/video/models.py:42
+msgid "videos"
+msgstr ""
+
+#: feincms/contrib/tagging.py:138
+msgid "Tagging"
+msgstr ""
+
+#: feincms/extensions/changedate.py:42
+msgid "creation date"
+msgstr ""
+
+#: feincms/extensions/changedate.py:44
+msgid "modification date"
+msgstr ""
+
+#: feincms/extensions/ct_tracker.py:153
+msgid "content types"
+msgstr ""
+
+#: feincms/extensions/datepublisher.py:82
+msgid "publication date"
+msgstr ""
+
+#: feincms/extensions/datepublisher.py:86
+msgid "publication end date"
+msgstr ""
+
+#: feincms/extensions/datepublisher.py:89
+msgid "Leave empty if the entry should stay active forever."
+msgstr ""
+
+#: feincms/extensions/datepublisher.py:125
+msgid "visible from - to"
+msgstr ""
+
+#: feincms/extensions/datepublisher.py:136
+msgid "Date-based publishing"
+msgstr ""
+
+#: feincms/extensions/featured.py:18
+msgid "featured"
+msgstr ""
+
+#: feincms/extensions/featured.py:24
+msgid "Featured"
+msgstr ""
+
+#: feincms/extensions/seo.py:16
+msgid "meta keywords"
+msgstr ""
+
+#: feincms/extensions/seo.py:18
+msgid "Keywords are ignored by most search engines."
+msgstr ""
+
+#: feincms/extensions/seo.py:20
+msgid "meta description"
+msgstr ""
+
+#: feincms/extensions/seo.py:22
+msgid ""
+"This text is displayed on the search results page. It is however not used "
+"for the SEO ranking. Text longer than 140 characters is truncated."
+msgstr ""
+
+#: feincms/extensions/seo.py:32
+msgid "Search engine optimization"
+msgstr ""
+
+#: feincms/extensions/translations.py:161 feincms/translations.py:282
+msgid "language"
+msgstr ""
+
+#: feincms/extensions/translations.py:169
+msgid "translation of"
+msgstr ""
+
+#: feincms/extensions/translations.py:173
+msgid "Leave this empty for entries in the primary language."
+msgstr ""
+
+#: feincms/extensions/translations.py:282
+msgid "Edit translation"
+msgstr ""
+
+#: feincms/extensions/translations.py:289
+msgid "Create translation"
+msgstr ""
+
+#: feincms/extensions/translations.py:297
+msgid "translations"
+msgstr ""
+
+#: feincms/models.py:522
+msgid "ordering"
+msgstr ""
+
+#: feincms/module/medialibrary/contents.py:48
+#: feincms/module/medialibrary/models.py:114
+msgid "media files"
+msgstr ""
+
+#: feincms/module/medialibrary/forms.py:29
+msgid "This would create a loop in the hierarchy"
+msgstr ""
+
+#: feincms/module/medialibrary/forms.py:74
+#, python-format
+msgid ""
+"Cannot overwrite with different file type (attempt to overwrite a "
+"%(old_ext)s with a %(new_ext)s)"
+msgstr ""
+
+#: feincms/module/medialibrary/modeladmins.py:63
+#, python-format
+msgid "Successfully added %(count)d media file to %(category)s."
+msgid_plural "Successfully added %(count)d media files to %(category)s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: feincms/module/medialibrary/modeladmins.py:84
+msgid "Add selected media files to category"
+msgstr ""
+
+#: feincms/module/medialibrary/modeladmins.py:94
+#, python-format
+msgid "ZIP file exported as %s"
+msgstr ""
+
+#: feincms/module/medialibrary/modeladmins.py:96
+#, python-format
+msgid "ZIP file export failed: %s"
+msgstr ""
+
+#: feincms/module/medialibrary/modeladmins.py:104
+msgid "Export selected media files as zip file"
+msgstr ""
+
+#: feincms/module/medialibrary/modeladmins.py:153
+#: feincms/templates/admin/feincms/page/page/item_editor.html:11
+msgid "Preview"
+msgstr ""
+
+#: feincms/module/medialibrary/modeladmins.py:158
+#: feincms/module/medialibrary/models.py:104
+msgid "file size"
+msgstr ""
+
+#: feincms/module/medialibrary/modeladmins.py:163
+#: feincms/module/medialibrary/models.py:101
+msgid "created"
+msgstr ""
+
+#: feincms/module/medialibrary/modeladmins.py:183
+#: feincms/module/medialibrary/models.py:98
+msgid "file type"
+msgstr ""
+
+#: feincms/module/medialibrary/modeladmins.py:207
+msgid "file info"
+msgstr ""
+
+#: feincms/module/medialibrary/modeladmins.py:220
+#, python-format
+msgid "%d files imported"
+msgstr ""
+
+#: feincms/module/medialibrary/modeladmins.py:222
+#, python-format
+msgid "ZIP import failed: %s"
+msgstr ""
+
+#: feincms/module/medialibrary/modeladmins.py:224
+msgid "No input file given"
+msgstr ""
+
+#: feincms/module/medialibrary/models.py:49
+msgid "parent"
+msgstr ""
+
+#: feincms/module/medialibrary/models.py:51 feincms/module/page/models.py:156
+msgid "slug"
+msgstr ""
+
+#: feincms/module/medialibrary/models.py:55
+msgid "category"
+msgstr ""
+
+#: feincms/module/medialibrary/models.py:56
+#: feincms/module/medialibrary/models.py:107
+msgid "categories"
+msgstr ""
+
+#: feincms/module/medialibrary/models.py:102
+msgid "copyright"
+msgstr ""
+
+#: feincms/module/medialibrary/models.py:220
+msgid "Image"
+msgstr ""
+
+#: feincms/module/medialibrary/models.py:222
+msgid "Video"
+msgstr ""
+
+#: feincms/module/medialibrary/models.py:225
+msgid "Audio"
+msgstr ""
+
+#: feincms/module/medialibrary/models.py:227
+msgid "PDF document"
+msgstr ""
+
+#: feincms/module/medialibrary/models.py:228
+msgid "Flash"
+msgstr ""
+
+#: feincms/module/medialibrary/models.py:229
+msgid "Text"
+msgstr ""
+
+#: feincms/module/medialibrary/models.py:230
+msgid "Rich Text"
+msgstr ""
+
+#: feincms/module/medialibrary/models.py:231
+msgid "Zip archive"
+msgstr ""
+
+#: feincms/module/medialibrary/models.py:232
+msgid "Microsoft Word"
+msgstr ""
+
+#: feincms/module/medialibrary/models.py:234
+msgid "Microsoft Excel"
+msgstr ""
+
+#: feincms/module/medialibrary/models.py:236
+msgid "Microsoft PowerPoint"
+msgstr ""
+
+#: feincms/module/medialibrary/models.py:238
+msgid "Binary"
+msgstr ""
+
+#: feincms/module/medialibrary/models.py:263
+msgid "description"
+msgstr ""
+
+#: feincms/module/medialibrary/models.py:266
+msgid "media file translation"
+msgstr ""
+
+#: feincms/module/medialibrary/models.py:267
+msgid "media file translations"
+msgstr ""
+
+#: feincms/module/page/extensions/excerpt.py:18
+msgid "excerpt"
+msgstr ""
+
+#: feincms/module/page/extensions/excerpt.py:21
+msgid "Add a brief excerpt summarizing the content of this page."
+msgstr ""
+
+#: feincms/module/page/extensions/excerpt.py:25
+msgid "Excerpt"
+msgstr ""
+
+#: feincms/module/page/extensions/navigation.py:90
+#: feincms/module/page/extensions/navigation.py:152
+msgid "navigation extension"
+msgstr ""
+
+#: feincms/module/page/extensions/navigation.py:156
+msgid ""
+"Select the module providing subpages for this page if you need to customize "
+"the navigation."
+msgstr ""
+
+#: feincms/module/page/extensions/navigation.py:179
+msgid "Navigation extension"
+msgstr ""
+
+#: feincms/module/page/extensions/navigationgroups.py:17
+msgid "Default"
+msgstr ""
+
+#: feincms/module/page/extensions/navigationgroups.py:18
+msgid "Footer"
+msgstr ""
+
+#: feincms/module/page/extensions/navigationgroups.py:25
+msgid "navigation group"
+msgstr ""
+
+#: feincms/module/page/extensions/relatedpages.py:20
+msgid "Select pages that should be listed as related content."
+msgstr ""
+
+#: feincms/module/page/extensions/relatedpages.py:25
+msgid "Related pages"
+msgstr ""
+
+#: feincms/module/page/extensions/sites.py:21
+msgid "Site"
+msgstr ""
+
+#: feincms/module/page/extensions/symlinks.py:22
+msgid "symlinked page"
+msgstr ""
+
+#: feincms/module/page/extensions/symlinks.py:23
+msgid "All content is inherited from this page if given."
+msgstr ""
+
+#: feincms/module/page/extensions/titles.py:19
+msgid "content title"
+msgstr ""
+
+#: feincms/module/page/extensions/titles.py:22
+msgid "The first line is the main title, the following lines are subtitles."
+msgstr ""
+
+#: feincms/module/page/extensions/titles.py:26
+msgid "page title"
+msgstr ""
+
+#: feincms/module/page/extensions/titles.py:30
+msgid ""
+"Page title for browser window. Same as title by default. Must be 69 "
+"characters or fewer."
+msgstr ""
+
+#: feincms/module/page/extensions/titles.py:60
+msgid "Titles"
+msgstr ""
+
+#: feincms/module/page/forms.py:185
+msgid "This URL is already taken by an active page."
+msgstr ""
+
+#: feincms/module/page/forms.py:204
+msgid "This URL is already taken by another active page."
+msgstr ""
+
+#: feincms/module/page/forms.py:209
+msgid "This page does not allow attachment of child pages"
+msgstr ""
+
+#: feincms/module/page/modeladmins.py:47
+msgid "Other options"
+msgstr ""
+
+#: feincms/module/page/modeladmins.py:85 feincms/module/page/models.py:163
+msgid "in navigation"
+msgstr ""
+
+#: feincms/module/page/modeladmins.py:114
+#: feincms/module/page/modeladmins.py:116
+msgid "Add child page"
+msgstr ""
+
+#: feincms/module/page/modeladmins.py:125
+#: feincms/module/page/modeladmins.py:127
+#: feincms/templates/admin/feincms/content_inline.html:10
+msgid "View on site"
+msgstr ""
+
+#: feincms/module/page/modeladmins.py:147
+#, python-format
+msgid "Add %(language)s translation of \"%(page)s\""
+msgstr ""
+
+#: feincms/module/page/modeladmins.py:182
+msgid ""
+"The content from the original translation has been copied to the newly "
+"created page."
+msgstr ""
+
+#: feincms/module/page/modeladmins.py:198
+msgid "You don't have the necessary permissions to edit this object"
+msgstr ""
+
+#: feincms/module/page/modeladmins.py:225
+msgid "inherited"
+msgstr ""
+
+#: feincms/module/page/modeladmins.py:231
+msgid "extensions"
+msgstr ""
+
+#: feincms/module/page/modeladmins.py:235 feincms/module/page/models.py:206
+msgid "is active"
+msgstr ""
+
+#: feincms/module/page/models.py:150
+msgid "active"
+msgstr ""
+
+#: feincms/module/page/models.py:154
+msgid "This title is also used for navigation menu items."
+msgstr ""
+
+#: feincms/module/page/models.py:157
+msgid "This is used to build the URL for this page"
+msgstr ""
+
+#: feincms/module/page/models.py:165
+msgid "override URL"
+msgstr ""
+
+#: feincms/module/page/models.py:167
+msgid ""
+"Override the target URL. Be sure to include slashes at the beginning and at "
+"the end if it is a local URL. This affects both the navigation and subpages' "
+"URLs."
+msgstr ""
+
+#: feincms/module/page/models.py:171
+msgid "redirect to"
+msgstr ""
+
+#: feincms/module/page/models.py:174
+msgid "Target URL for automatic redirects or the primary key of a page."
+msgstr ""
+
+#: feincms/module/page/models.py:177
+msgid "Cached URL"
+msgstr ""
+
+#: feincms/module/page/models.py:279
+#, python-format
+msgid ""
+"This %(page_class)s uses a singleton template, and "
+"FEINCMS_SINGLETON_TEMPLATE_DELETION_ALLOWED=False"
+msgstr ""
+
+#: feincms/module/page/models.py:366
+msgid "page"
+msgstr ""
+
+#: feincms/module/page/models.py:367
+msgid "pages"
+msgstr ""
+
+#: feincms/templates/admin/feincms/_messages_js.html:5
+msgid "Really delete item?"
+msgstr ""
+
+#: feincms/templates/admin/feincms/_messages_js.html:6
+msgid "Really change template? All changes are saved."
+msgstr ""
+
+#: feincms/templates/admin/feincms/_messages_js.html:7
+#, python-format
+msgid ""
+"Really change template? All changes are saved and content from "
+"%%(source_regions)s is moved to %%(target_region)s."
+msgstr ""
+
+#: feincms/templates/admin/feincms/_messages_js.html:8
+msgid "Move to region:"
+msgstr ""
+
+#: feincms/templates/admin/feincms/content_editor.html:15
+msgid "Copy content from the original"
+msgstr ""
+
+#: feincms/templates/admin/feincms/content_editor.html:19
+msgid "Region empty"
+msgstr ""
+
+#: feincms/templates/admin/feincms/content_editor.html:25
+msgid ""
+"Content from the parent site is automatically inherited. To override this "
+"behaviour, add some content."
+msgstr ""
+
+#: feincms/templates/admin/feincms/content_inline.html:8
+msgid "Change"
+msgstr ""
+
+#: feincms/templates/admin/feincms/content_inline.html:27
+msgid "Remove"
+msgstr ""
+
+#: feincms/templates/admin/feincms/content_inline.html:28
+#, python-format
+msgid "Add another %(verbose_name)s"
+msgstr ""
+
+#: feincms/templates/admin/feincms/content_type_selection_widget.html:3
+msgid "Insert new content:"
+msgstr ""
+
+#: feincms/templates/admin/feincms/item_editor.html:32
+msgid "available translations"
+msgstr ""
+
+#: feincms/templates/admin/feincms/page/page/item_editor.html:19
+#: feincms/templates/admin/feincms/page/page/tree_editor.html:7
+#: feincms/templates/admin/feincms/recover_form.html:7
+#: feincms/templates/admin/feincms/revision_form.html:7
+msgid "Home"
+msgstr ""
+
+#: feincms/templates/admin/feincms/page/page/item_editor.html:23
+msgid "Add"
+msgstr ""
+
+#: feincms/templates/admin/feincms/recover_form.html:10
+#, python-format
+msgid "Recover deleted %(verbose_name)s"
+msgstr ""
+
+#: feincms/templates/admin/feincms/recover_form.html:16
+msgid "Press the save button below to recover this version of the object."
+msgstr ""
+
+#: feincms/templates/admin/feincms/revision_form.html:11
+msgid "History"
+msgstr ""
+
+#: feincms/templates/admin/feincms/revision_form.html:12
+#, python-format
+msgid "Revert %(verbose_name)s"
+msgstr ""
+
+#: feincms/templates/admin/feincms/revision_form.html:23
+msgid "Press the save button below to revert to this version of the object."
+msgstr ""
+
+#: feincms/templates/admin/feincms/tree_editor.html:21
+msgid "Shortcuts"
+msgstr ""
+
+#: feincms/templates/admin/feincms/tree_editor.html:23
+msgid "Collapse tree"
+msgstr ""
+
+#: feincms/templates/admin/feincms/tree_editor.html:24
+msgid "Expand tree"
+msgstr ""
+
+#: feincms/templates/admin/feincms/tree_editor.html:28
+msgid "Filter"
+msgstr ""
+
+#: feincms/templates/admin/filter.html:3
+#, python-format
+msgid " By %(filter_title)s "
+msgstr ""
+
+#: feincms/templates/admin/medialibrary/add_to_category.html:5
+#: feincms/templates/admin/medialibrary/add_to_category.html:9
+msgid "Add media files to category"
+msgstr ""
+
+#: feincms/templates/admin/medialibrary/add_to_category.html:11
+msgid "Select category to apply:"
+msgstr ""
+
+#: feincms/templates/admin/medialibrary/add_to_category.html:17
+msgid "The following media files will be added to the selected category:"
+msgstr ""
+
+#: feincms/templates/admin/medialibrary/add_to_category.html:22
+msgid "Add to category"
+msgstr ""
+
+#: feincms/templates/admin/medialibrary/add_to_category.html:23
+msgid "Cancel"
+msgstr ""
+
+#: feincms/templates/admin/medialibrary/mediafile/change_list.html:10
+msgid "Bulk upload a ZIP file:"
+msgstr ""
+
+#: feincms/templates/admin/medialibrary/mediafile/change_list.html:20
+msgid "Overwrite"
+msgstr ""
+
+#: feincms/templates/admin/medialibrary/mediafile/change_list.html:23
+msgid "Send"
+msgstr ""
+
+#: feincms/templates/content/contactform/form.html:9
+msgid "Submit"
+msgstr ""
+
+#: feincms/templates/content/contactform/thanks.html:3
+msgid "Thanks!"
+msgstr ""

@@ -1,0 +1,109 @@
+// Mixins.
+
+@mixin nl {
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+    list-style: none;
+    list-style-position: outside;
+}
+
+@mixin cf {
+    &:before,
+    &:after {
+        display: table;
+        content: "";
+    }
+
+    &:after {
+        clear: both;
+    }
+
+    .lt-ie8 & {
+        zoom: 1;
+    }
+}
+
+@mixin blocks-justify {
+    text-align: justify;
+    text-justify: newspaper;
+}
+
+// You can add your own mixins here:
+
+@mixin grid-container($width) {
+    width: 100%;
+    max-width: $width;
+    margin: 0 auto;
+}
+
+
+@mixin text-uppercase() {
+    text-transform: uppercase;
+}
+
+@mixin line-decor() {
+    &:before {
+        content: '';
+        position: absolute;
+        top: 63px;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background-color: $color-grey-ligher;
+    }
+}
+
+@mixin arrow($side) {
+    width: 30px;
+    height: 30px;
+    background-image: url('../img/general/icon-arrow.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 1px solid $color-grey-ligher;
+    position: absolute;
+    top: 48px;
+    right: 40px;
+    background-color: $color-white;
+    cursor: pointer;
+    transition: all .2s;
+    @if $side == "right" {
+        right: 0px;
+        transform: rotate(180deg);
+    }
+    &:hover {
+        //background-color: rgba(0,0,0,.05);
+    }
+}
+
+
+@mixin text-light {
+    font-family: $latolight;
+    font-size: 14px;
+    letter-spacing: $base-letter-spacing;
+}
+
+@mixin text-medium {
+    font-family: $latomedium;
+    font-size: 14px;
+    letter-spacing: $base-letter-spacing;
+}
+
+@mixin btn-light {
+    position: relative;
+    padding: 3px 15px;
+    border: 1px solid $color-grey-medium;
+    border-radius: 3px;
+    text-transform: lowercase;
+    background-color: white;
+    font-size: 21px;
+    color: $color-grey-medium;
+    cursor: pointer;
+
+    &:hover {
+        border-color: $color-pink;
+        color: $color-pink;
+        transition: $base-hover-transition;
+    }
+}

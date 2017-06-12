@@ -1,0 +1,32 @@
+{{#each items}}
+  <li class="menu-catalog-item">
+    <a href="{{ this.url }}" title="{{ this.title }}">{{ this.title }}</a>
+    {{#if dropdown}}
+      <ul id="dropdown" class="dropdown-custom menu">
+        {{#if dropdown.category}}
+          <div class="dropdown-content">
+            <ul id="dropdownCategory" class="dropdown-content-item">
+              <li>Категории:</li>
+              {{#each dropdown.category}}
+              <li><a href="#">{{this}}</a></li>
+              {{/each}}
+            </ul>
+          </div>
+        {{/if}}
+        {{#if dropdown.series}}
+          <div class="dropdown-content">
+            <ul id="dropdownSeries" class="dropdown-content-item">
+              <li>Серии:</li>
+              {{#each dropdown.series}}
+              <li><a href="#">{{this}}</a></li>
+              {{/each}}
+            </ul>
+          </div>
+        {{/if}}
+        <div class="dropdown-link">
+          <a href="#">Все товары в разделе</a>
+        </div>
+      </ul>
+    {{/if}}
+  </li> 
+{{/each}}

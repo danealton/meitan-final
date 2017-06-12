@@ -1,0 +1,28 @@
+{% load i18n %}
+{% load staticfiles %}
+{% load feincms_tags %}
+{% load feincms_page_tags %}
+{% load categories %}
+
+
+<!DOCTYPE html>
+<html lang="ru" class="no-js">
+
+  {% include "includes/head.html" %}
+
+  <body class="page">
+
+    <div class="page__wrapper">
+      {% block content %}
+      {% endblock %}
+    </div>
+
+    <!-- Main scripts. You can replace it, but I recommend you to leave it here     -->
+
+        <script src="{% static "js/jquery-3.1.1.min.js" %}"></script>
+        <script src="{% static "js/main.js" %}"></script>
+        <script src="{% static "js/vendor.js" %}"></script> 
+
+  </body>
+
+</html>

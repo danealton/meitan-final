@@ -1,0 +1,132 @@
+{% load staticfiles %}
+{% load applicationcontent_tags %}
+
+<nav aria-label="You are here:" class="row column" role="navigation">
+    <ul class="breadcrumbs">
+        <li>
+            <a href="{% app_reverse "product_list" "products.urls" %}">Каталог</a>
+        </li>
+        <li><span class="show-for-sr">Current:</span><a href="{% app_reverse "product_list" "products.urls" %}?category_id={{active_category_id}}">{{ active_category.title }}</a></span></li>
+        <li><span class="show-for-sr">Current:</span>{{ product.title }}</span></li>
+    </ul>
+</nav>
+
+<body class="page">
+
+
+        <section class="page__wrapper">
+
+            <!-- Include your modules here -->
+
+            <!-- Include header -->
+            <!-- Include menu -->
+            <!-- Include breadcrumbs -->
+            <!-- Include catalog -->
+            <div id="" class="">
+                <div class="row">
+                    <div class="small-6 columns">
+                  <div>
+                    <img src="{{ product.get_image_big }}" alt="" title=""/>
+                  </div>
+                </div>
+
+                    <div class="small-6 columns">
+                  <div class="catalog-item-series">{{ product.subtitle }}</div>
+                  <div class="catalog-item-title">{{ product.title }}</div>
+                  <div class="row">
+                    <div class="small-4 columns">Количество:</div>
+                    <div class="small-8 columns">{{ product.amount }}</div>
+                  </div>
+                  <div class="row">
+                    <div class="small-4 columns">Возраст:</div>
+                    <div class="small-8 columns">{{ product.age }}</div>
+                  </div>
+                  <div class="row">
+                    <div class="small-4 columns">Назначение:</div>
+                    <div class="small-8 columns">{{ product.appoitment }}</div>
+                  </div>
+                  <div class="row">
+                    <div class="small-4 columns">Тип кожи:</div>
+                    <div class="small-8 columns">{{ product.skin }}</div>
+                  </div>
+                  <div class="row">
+                    <div class="small-4 columns">Частота применения:</div>
+                    <div class="small-8 columns">{{ product.frequency }}</div>
+                  </div>
+                  <div class="row">
+                    <div class="small-4 columns">Отдушка:</div>
+                    <div class="small-8 columns">{{ product.perfume }}</div>
+                  </div>
+                  <div class="row">
+                    <div class="small-4 columns">Консистенция:</div>
+                    <div class="small-8 columns">{{ product.consistency }}</div>
+                  </div>
+                  <div class="row">
+                    <div class="small-4 columns">Упаковка:</div>
+                    <div class="small-8 columns">{{ product.packaging }}</div>
+                  </div>
+                  <div class="row">
+                    <div class="small-4 columns">Страна:</div>
+                    <div class="small-8 columns">{{ product.country }}</div>
+                  </div>
+
+                  <div class="row column">
+                    <div class="catalog-item-price">{{ product.price }} &#8381;</div>
+                    <fieldset>
+                      <input type="text" value="1 шт." readonly />
+                      <span>+</span>
+                      <span>-</span>
+                    </fieldset>
+                  </div>
+
+                  <form action="{% app_reverse "CartAddDetail" "products.urls" product.id %}" method="post" class="add">
+                    {{ cart_product_form_detail }}
+                    {% csrf_token %}
+                    <input type="submit" value="Добавить в корзину">
+                  </form>
+                </div>
+                </div> <!-- end row product -->
+
+              <div class="row column">
+                <ul class="tabs" data-tabs id="productInform">
+                  <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">О товаре</a></li>
+                  <li class="tabs-title"><a href="#panel2">Состав</a></li>
+                </ul>
+                <div class="tabs-content" data-tabs-content="productInform">
+                  <div class="tabs-panel is-active" id="panel1">
+                      {{ product.description }}
+                  </div>
+                  <div class="tabs-panel" id="panel2">
+                    {{ product.contains }}
+                  </div>
+                </div>
+              </div> <!-- end row productInform -->
+
+              <section id="catalog_recommend" class="catalog catalog-line-decor">
+                <div class="row column catalog-title-wrapper">
+                  <h3 class="catalog-title">Возможно вас заинтересует</h3>
+                  <div class="arrow-left"></div>
+                  <div class="arrow-right"></div>
+                </div>
+                {% for product in related_products %}
+                <div id="catalog_recommend_slider" class="row small-up-1 medium-up-2 large-up-3">
+                  <div class="column catalog-item" id="1">
+                    <a href="catalog-item.html" class="">
+                      <div class="catalog-item-image">
+                        <img src="{{product.get_image_sm}}" alt="Дневной крем для лица &quot;Элексир Кумкумади&quot;" title="{{product.title}}" />
+                      </div>
+                      <div class="catalog-item-series">{{product.subtitle}}</div>
+                      <div class="catalog-item-title">{{product.title}}</div>
+                      <div class="catalog-item-price">{{product.price}} &#8381;</div>
+                      <div class="js-add-cart cart-btn">
+                        <img src="static/img/general/icon-cart-white.png" alt="Добавить в корзину" title="Добавить в корзину"/>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                {% endfor %}
+              </section>
+
+            </div>
+    </section>
+</body>

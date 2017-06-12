@@ -1,0 +1,5 @@
+<div class="js-slider-simple">
+	{% for product in ctx.products %}
+    	<img src="{{ product.image.url }}" alt="" title="{{ product.title }}"/>
+	{% endfor %}
+</div>
